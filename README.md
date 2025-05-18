@@ -2,7 +2,7 @@
 
 <div align="center">
   <picture>
-    <img src="https://cdn.jsdelivr.net/gh/timerring/scratchpad2023/2024/2025-05-18-21-08-17.gif" alt="hugo-live-photo" />
+    <img src="./public/example.gif" alt="hugo-live-photo" />
   </picture>
 
 Add Live Photo Effect to Hugo (Hugo live photo shortcodes) 
@@ -11,7 +11,7 @@ Add Live Photo Effect to Hugo (Hugo live photo shortcodes)
 
 English Version |
 [中文版本]() |
-[Share your idea](https://github.com/timerring/hugo-live-photo/issues/new) |
+[Share your idea](https://github.com/timerring/hugo-live-photo/issues/new)
 
-<div>
+</div>
 
