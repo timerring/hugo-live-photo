@@ -1,0 +1,47 @@
+// Find it under the yourtheme/assets/_shortcodes.scss file
+// You can define your style code
+.live-photo-container {
+    position: relative;
+    width: 60%;
+    margin: 0 auto; 
+    overflow: hidden;
+    
+    // image element
+    .live-photo-img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: opacity 0.2s ease-in-out;
+    }
+    
+    // video element
+    .live-photo-video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      opacity: 0;
+      transition: opacity 0.2s ease-in-out;
+    }
+    
+    // description element
+    .live-photo-desc{
+      font-size:small;
+      color: gray;
+      font-style: italic;
+      margin-top: 0.5rem;
+      text-align: center;
+    }
+    
+    // hover change the opacity to implement the live photo
+    &:hover {
+      .live-photo-video {
+        opacity: 1;
+      }
+      .live-photo-img {
+        opacity: 0;
+      }
+    }
+  }

@@ -1,0 +1,5 @@
+<!-- Find it under the yourtheme/layouts/partials folder. -->
+<!-- your former code..... -->
+<!-- Append it at the tail -->
+{{- $livePhotoJS := resources.Get "live-photo.js"| resources.Minify | resources.Fingerprint }}
+<script defer src="{{ $livePhotoJS.RelPermalink }}" {{ template "integrity" $livePhotoJS }}></script>
